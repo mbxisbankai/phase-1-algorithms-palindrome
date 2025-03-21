@@ -7,18 +7,20 @@ function isPalindrome(word) {
 
   isPalindrome(string) {
     split the string to form an array
-    initialize newWord & map each letter in the string array using string.pop
-    return newWord
-    if(newWord and string are strictly equal){
-      return true;
-    }else {
-      return false;
-    }
+    reverse the string
+    make the reversed string a word using join()
+    return the word
   }
 */
 
 /*
   Add written explanation of your solution here
+
+  When the function isPalindrome is called, with the word as an argument, the word is split to form an array.
+  This array is reversed using JavaScript's reverse() method.
+  The reversed array is converted back to a string using the join() method and compared with the original value using a strictly equal operator.
+  This returns true or false based on whether the condition was met or not.
+
 */
 
 
